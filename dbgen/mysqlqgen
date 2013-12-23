@@ -1,0 +1,24 @@
+#!/bin/bash
+
+./qgen -d -c 1 -n tpch -s 1 -o ./mysql-result > mysql-queries/q1.sql
+./qgen -d -c 2 -n tpch -s 1 -o ./mysql-result > mysql-queries/q2.sql
+./qgen -d -c 3 -n tpch -s 1 -o ./mysql-result > mysql-queries/q3.sql
+./qgen -d -c 4 -n tpch -s 1 -o ./mysql-result > mysql-queries/q4.sql
+./qgen -d -c 5 -n tpch -s 1 -o ./mysql-result > mysql-queries/q5.sql
+./qgen -d -c 6 -n tpch -s 1 -o ./mysql-result > mysql-queries/q6.sql
+./qgen -d -c 7 -n tpch -s 1 -o ./mysql-result > mysql-queries/q7.sql
+./qgen -d -c 8 -n tpch -s 1 -o ./mysql-result > mysql-queries/q8.sql
+./qgen -d -c 9 -n tpch -s 1 -o ./mysql-result > mysql-queries/q9.sql
+./qgen -d -c 10 -n tpch -s 1 -o ./mysql-result > mysql-queries/q10.sql
+./qgen -d -c 11 -n tpch -s 1 -o ./mysql-result > mysql-queries/q11.sql
+./qgen -d -c 12 -n tpch -s 1 -o ./mysql-result > mysql-queries/q12.sql
+./qgen -d -c 13 -n tpch -s 1 -o ./mysql-result > mysql-queries/q13.sql
+./qgen -d -c 14 -n tpch -s 1 -o ./mysql-result > mysql-queries/q14.sql
+./qgen -d -c 15 -n tpch -s 1 -o ./mysql-result > mysql-queries/q15.sql
+./qgen -d -c 16 -n tpch -s 1 -o ./mysql-result > mysql-queries/q16.sql
+./qgen -d -c 17 -n tpch -s 1 -o ./mysql-result > mysql-queries/q17.sql
+./qgen -d -c 18 -n tpch -s 1 -o ./mysql-result > mysql-queries/q18.sql
+./qgen -d -c 19 -n tpch -s 1 -o ./mysql-result > mysql-queries/q19.sql
+./qgen -d -c 20 -n tpch -s 1 -o ./mysql-result > mysql-queries/q20.sql
+./qgen -d -c 21 -n tpch -s 1 -o ./mysql-result > mysql-queries/q21.sql
+./qgen -d -c 22 -n tpch -s 1 -o ./mysql-result > mysql-queries/q22.sql

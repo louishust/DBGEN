@@ -1,0 +1,25 @@
+#!/bin/bash
+
+export DSS_QUERY=mysql-queries-template
+./qgen -d -x -c 1  -n tpch -s 1 > mysql-queries-explain/1.sql
+./qgen -d -x -c 2  -n tpch -s 1 > mysql-queries-explain/2.sql
+./qgen -d -x -c 3  -n tpch -s 1 > mysql-queries-explain/3.sql
+./qgen -d -x -c 4  -n tpch -s 1 > mysql-queries-explain/4.sql
+./qgen -d -x -c 5  -n tpch -s 1 > mysql-queries-explain/5.sql
+./qgen -d -x -c 6  -n tpch -s 1 > mysql-queries-explain/6.sql
+./qgen -d -x -c 7  -n tpch -s 1 > mysql-queries-explain/7.sql
+./qgen -d -x -c 8  -n tpch -s 1 > mysql-queries-explain/8.sql
+./qgen -d -x -c 9  -n tpch -s 1 > mysql-queries-explain/9.sql
+./qgen -d -x -c 10 -n tpch -s 1 > mysql-queries-explain/10.sql
+./qgen -d -x -c 11 -n tpch -s 1 > mysql-queries-explain/11.sql
+./qgen -d -x -c 12 -n tpch -s 1 > mysql-queries-explain/12.sql
+./qgen -d -x -c 13 -n tpch -s 1 > mysql-queries-explain/13.sql
+./qgen -d -x -c 14 -n tpch -s 1 > mysql-queries-explain/14.sql
+./qgen -d -x -c 15 -n tpch -s 1 > mysql-queries-explain/15.sql
+./qgen -d -x -c 16 -n tpch -s 1 > mysql-queries-explain/16.sql
+./qgen -d -x -c 17 -n tpch -s 1 > mysql-queries-explain/17.sql
+./qgen -d -x -c 18 -n tpch -s 1 > mysql-queries-explain/18.sql
+./qgen -d -x -c 19 -n tpch -s 1 > mysql-queries-explain/19.sql
+./qgen -d -x -c 20 -n tpch -s 1 > mysql-queries-explain/20.sql
+./qgen -d -x -c 21 -n tpch -s 1 > mysql-queries-explain/21.sql
+./qgen -d -x -c 22 -n tpch -s 1 > mysql-queries-explain/22.sql
